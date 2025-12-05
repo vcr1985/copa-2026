@@ -48,6 +48,6 @@ class AppContainer(private val context: Context) {
     
     private val notificationScheduler: NotificationScheduler = NotificationSchedulerImpl(context)
 
-    val matchesRepository: MatchesRepository = MatchesRepositoryImpl(remoteDataSource, localDataSource)
+    val matchesRepository: MatchesRepository = MatchesRepositoryImpl(context)
     val notificationRepository: NotificationRepository = NotificationRepositoryImpl(localDataSource, notificationScheduler)
 }
