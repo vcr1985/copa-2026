@@ -1,4 +1,4 @@
-package br.com.vandodev.copa_2026_android
+package br.com.vandodev.copa_2022_android
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -29,8 +29,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import br.com.vandodev.copa_2026_android.ui.TeamColors
-import br.com.vandodev.copa_2026_android.ui.isDark
+import br.com.vandodev.copa_2022_android.ui.TeamColors
+import br.com.vandodev.copa_2022_android.ui.isDark
 import br.com.vandodev.domain.model.Match
 import br.com.vandodev.domain.model.Team
 import coil.compose.AsyncImage

@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "br.com.vandodev.copa_2026_android"
+    namespace = "br.com.vandodev.copa_2022_android"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "br.com.vandodev.copa_2026_android"
+        applicationId = "br.com.vandodev.copa_2022_android"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

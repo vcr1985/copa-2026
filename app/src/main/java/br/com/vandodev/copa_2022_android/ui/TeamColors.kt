@@ -1,4 +1,4 @@
-package br.com.vandodev.copa_2026_android.ui
+package br.com.vandodev.copa_2022_android.ui
 
 import androidx.compose.ui.graphics.Color
 

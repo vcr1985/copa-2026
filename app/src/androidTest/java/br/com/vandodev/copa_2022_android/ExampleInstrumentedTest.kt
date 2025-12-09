@@ -1,4 +1,4 @@
-package br.com.vandodev.copa_2026_android
+package br.com.vandodev.copa_2022_android
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

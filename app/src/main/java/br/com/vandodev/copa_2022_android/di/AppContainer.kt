@@ -1,11 +1,11 @@
-package br.com.vandodev.copa_2026_android.di
+package br.com.vandodev.copa_2022_android.di
 
 import android.content.Context
 import androidx.room.Room
 import br.com.vandodev.data.local.AppDatabase
 import br.com.vandodev.data.local.TeamLocalDataSource
 import br.com.vandodev.data.local.TeamLocalDataSourceImpl
-import br.com.vandodev.data.remote.Copa2026Api
+import br.com.vandodev.data.remote.Copa2022Api
 import br.com.vandodev.data.remote.TeamRemoteDataSource
 import br.com.vandodev.data.remote.TeamRemoteDataSourceImpl
 import br.com.vandodev.data.repository.MatchesRepositoryImpl
@@ -36,11 +36,11 @@ class AppContainer(private val context: Context) {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    private val api: Copa2026Api = retrofit.create(Copa2026Api::class.java)
+    private val api: Copa2022Api = retrofit.create(Copa2022Api::class.java)
 
     private val db: AppDatabase = Room.databaseBuilder(
         context,
-        AppDatabase::class.java, "copa-2026-db"
+        AppDatabase::class.java, "copa-2022-db"
     ).build()
 
     private val localDataSource: TeamLocalDataSource = TeamLocalDataSourceImpl(db.matchDao())

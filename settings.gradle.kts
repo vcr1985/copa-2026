@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Copa-2026-Android"
+rootProject.name = "Copa-2022-Android"
 include(":app")
 include(":domain")
 include(":data")

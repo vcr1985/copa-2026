@@ -1,10 +1,10 @@
-package br.com.vandodev.copa_2026_android
+package br.com.vandodev.copa_2022_android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import br.com.vandodev.copa_2026_android.di.ViewModelFactory
+import br.com.vandodev.copa_2022_android.di.ViewModelFactory
 
 class MainActivity : ComponentActivity() {
 

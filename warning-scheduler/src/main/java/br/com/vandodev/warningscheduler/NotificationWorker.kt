@@ -42,6 +42,6 @@ class NotificationWorker(
         const val KEY_MATCH_NAME = "KEY_MATCH_NAME"
         const val KEY_TEAM_A = "KEY_TEAM_A"
         const val KEY_TEAM_B = "KEY_TEAM_B"
-        private const val CHANNEL_ID = "copa-2026-notifications"
+        private const val CHANNEL_ID = "copa-2022-notifications"
     }
 }

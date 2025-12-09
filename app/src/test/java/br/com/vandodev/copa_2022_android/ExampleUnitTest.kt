@@ -1,4 +1,4 @@
-package br.com.vandodev.copa_2026_android
+package br.com.vandodev.copa_2022_android
 
 import org.junit.Test
 

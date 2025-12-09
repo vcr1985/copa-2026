@@ -1,8 +1,8 @@
-package br.com.vandodev.copa_2026_android.di
+package br.com.vandodev.copa_2022_android.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import br.com.vandodev.copa_2026_android.MainViewModel
+import br.com.vandodev.copa_2022_android.MainViewModel
 import br.com.vandodev.domain.usecase.DisableNotificationUseCase
 import br.com.vandodev.domain.usecase.EnableNotificationUseCase
 import br.com.vandodev.domain.usecase.GetMatchesUseCase
